@@ -26,10 +26,11 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .header {
   padding: 20px 0;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .logo {
@@ -45,6 +46,7 @@ a {
   border-radius: 8px;
   display: inline-block;
 }
+
 .hero {
   text-align: center;
   padding: 60px 20px;
@@ -57,14 +59,16 @@ a {
 .hero span {
   color: #3366ff;
 }
-.A { 
+
+.A {
   background-size: 1440px 652px;
   background-image: url('../style/Assets/Hero-bg.png');
-  background-repeat:repeat; 
-  background-color: #f5f6fa; 
+  background-repeat: repeat;
+  background-color: #f5f6fa;
   padding: 100px 20px;
-  text-align:start;
+  text-align: start;
 }
+
 .video-preview .container {
   display: flex;
   justify-content: space-between;
@@ -83,6 +87,7 @@ a {
   font-size: 32px;
   color: #3366ff;
 }
+
 .stats-wrapper {
   display: flex;
   justify-content: center;
@@ -154,7 +159,7 @@ a {
 .review-card {
   background: white;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
   padding: 24px;
   max-width: 300px;
   flex: 1;
@@ -164,7 +169,8 @@ a {
 
 .stars {
   font-size: 1.2rem;
-  color: #fbbc04; /* Yellow stars */
+  color: #fbbc04;
+  /* Yellow stars */
   margin-bottom: 10px;
 }
 
@@ -202,6 +208,7 @@ a {
   color: gray;
   margin: 0;
 }
+
 .focus-section {
   background-color: #f5f7ff;
   padding: 60px 20px;
@@ -244,88 +251,86 @@ a {
 }
 
 .contact-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 80px 100px;
-    background-color: #f0f4ff;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 100px;
+  background-color: #f0f4ff;
+}
 
-  .left-text {
-    width: 50%;
-  }
+.left-text {
+  width: 50%;
+}
 
-  .left-text h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin: 0;
-    color: #000;
-  }
+.left-text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
 
-  .contact-form {
-    width: 50%;
-  }
+.contact-form {
+  width: 50%;
+}
 
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-  }
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
 
-  .contact-form textarea {
-    height: 100px;
-    resize: none;
-  }
+.contact-form textarea {
+  height: 100px;
+  resize: none;
+}
 
-  .contact-form button {
-    background-color: #4d4dff;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-  }
+.contact-form button {
+  background-color: #4d4dff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-  .footer {
-    background-color: #ffffff;
-    text-align: center;
-    padding: 60px 20px;
-  }
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
 
-  .footer .logo {
-    font-size: 48px;
-    font-weight: 800;
-    color: #4d4dff;
-    margin-bottom: 16px;
-  }
+.footer .logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #4d4dff;
+  margin-bottom: 16px;
+}
 
-  .footer .description {
-    font-size: 16px;
-    color: #666;
-    max-width: 600px;
-    margin: 0 auto 30px auto;
-  }
+.footer .description {
+  font-size: 16px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
 
-  .footer .nav-links {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    font-size: 15px;
-    color: #666;
-  }
+.footer .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 15px;
+  color: #666;
+}
 
-  .footer .nav-links a {
-    text-decoration: none;
-    color: inherit;
-  }
+.footer .nav-links a {
+  text-decoration: none;
+  color: inherit;
+}
 
-  .footer .nav-links a:hover {
-    color: #4d4dff;
-  }
-
-  
+.footer .nav-links a:hover {
+  color: #4d4dff;
+}
